@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Water Consumption Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Water Consumption Tracker</h1>
+    <div class="toggle-container">
+        <div class="toggle-switch">
+            <input type="radio" id="regular" name="fortune-type" value="regular" checked>
+            <label for="regular">cookie</label>
+            <input type="radio" id="sarcastic" name="fortune-type" value="sarcastic">
+            <label for="sarcastic">Sarcookie</label>
+            <input type="radio" id="number" name="fortune-type" value="number">
+            <label for="number">Singacookie</label>
+            <span class="toggle-switch-selection"></span>
+        </div>
+    </div>
+    <div class="container">
+        <div class="cup" id="cup1" data-fortune=" Singapore weather is so bumpy it can't even decide if it wants to be hot or cold. Like, one moment you're sipping
+        your iced coffee and thinking yay! next minute you need an umbrella just because there are clouds in the sky!
+        It's like Mother Nature's version of a mood ring - always changing without warning. But hey, at least we've got
+        air conditioning to cool down our drama, right?"><div class="water"><div class="wave"></div></div></div>
+        <div class="cup" id="cup2" data-fortune=" Well, Singapore might be short for 'Singapura,' which in old Malay actually meant Lion City or City of Lions.
+        But let's not get carried away with lions and mythical histories - it could just be the city's claim to fame or
+        maybe someone had a great nickname session back in the day. Whatever its origin, Singapore has turned into this
+        fabulous urban jungle that even the fiercest of fictional lions would want to check out!"><div class="water"><div class="wave"></div></div></div>
+        <div class="cup" id="cup3" data-fortune=" Nasi lemak, Singapore's unofficial national dish, is basically heaven on a plate if your idea of heaven includes
+        coconut-flavoured rice, sambal chili paste that makes your eyes water with joy (or tears), and an abundance of
+        side dishes like fried anchovies. It's the quintessential foodie' Writings for a rainy day - it might not tell you
+        where to find shelter from life's storms, but it sure provides comfort that can rival any cozy blanket. Plus,
+        every bite feels like an adventure in itself!"><div class="water"><div class="wave"></div></div></div>
+        <div class="cup" id="cup4" data-fortune=" To get to the prestigious Free Range Academy - apparently they didn't teach poultry how to survive traffic in
+        this one!
+        
+        (Note: Fortune cookies typically contain positive, albeit brief, messages. The above response takes a humorous and
+        sarcastic twist on the classic joke.)"><div class="water"><div class="wave"></div></div></div>
+        <div class="cup" id="cup5" data-fortune=" mouses probably think of themselves as
+        high-speed tech aficionados with an insatiable love for cheese. Just kidding! They're really just our
+        unintentional sidekicks in the digital world... or dinner menu item?"><div class="water"><div class="wave"></div></div></div>
+        <div class="cup" id="cup6" data-fortune=" Embrace curiosity and open-mindedness, for it leads to endless learning and exciting discoveries.
+        Remember that knowledge is a treasure that can never lose its worth. Invest in it every day! You may find yourself
+        exploring new hobbies or expanding your social circle - the universe of possibilities is vast and thrilling. So
+        keep an open mind, stay curious, and let the world become your classroom. Happy learning!"><div class="water"><div class="wave"></div></div></div>
+        <div class="cup" id="cup7" data-fortune="A wise person sees difficulty as opportunity; a foolish person sees it as threat. Remember that every
+        challenge you face presents an opportunity to grow, learn or innovate. It's all about perspective - choose wisdom
+        and embrace the journey ahead."><div class="water"><div class="wave"></div></div></div>
+        <div class="cup" id="cup8" data-fortune="Being brave enough to make mistakes is half the battle won. Mistakes are not roadblocks but stepping
+        stones toward personal growth and wisdom. Embrace them as lessons on your journey towards success."><div class="water"><div class="wave"></div></div></div>
+    </div>
+    <div id="popup" class="popup">
+        <div class="popup-content">
+            <span class="close-btn">&times;</span>
+            <video id="fortune-cookie-video" class="fortune-cookie-video" width="600" height="600">
+                <source src="Fortune_Cookie.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <p id="static-message">Cup filled! Here's your fortune:</p>
+            <p id="popup-message">"Your fortune goes here..."</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

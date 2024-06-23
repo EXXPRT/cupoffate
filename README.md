@@ -1,4 +1,4 @@
-#cup of fate
+##cup of fate
 the coolest way to stay hydrated
 ## Inspiration
 a study states that almost 75% of americans are chronically dehydrated. sometimes all we need is a little nudge to remind us that we need to rehydrate
